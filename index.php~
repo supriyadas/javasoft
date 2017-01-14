@@ -1,0 +1,16 @@
+<?php 
+/*
+$dir = 'com/';
+foreach(glob($dir.'*.*') as $v){
+echo $v;
+    unlink($v);
+}
+rmdir($dir);
+*/
+
+$output = exec('javac Main.java');
+//$output = exec('java com/Main');
+//echo $output; 
+
+
+?>
